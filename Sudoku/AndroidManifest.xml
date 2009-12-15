@@ -6,7 +6,7 @@
  ! courses, books, articles, and the like. Contact us if you are in doubt.
  ! We make no guarantees that this code is fit for any purpose. 
  ! Visit http://www.pragmaticprogrammer.com/titles/eband2 for more book information.
--->
+ -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
       package="org.example.sudoku"
       android:versionCode="1"
