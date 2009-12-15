@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+android:background="#97c024"
+>
+
+<ScrollView
+android:id="@+id/scrolli"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+
+>
+        <TextView   
+    android:id="@+id/about"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+     android:text="About"
+     android:textColor="#ffffffff"
+     android:textStyle="normal"
+     android:padding="10px"
+     
+    />
+</ScrollView>
+</LinearLayout>
