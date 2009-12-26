@@ -59,6 +59,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.text.InputType;
 import android.text.method.NumberKeyListener;
 import android.view.ContextMenu;
 import android.view.LayoutInflater;
@@ -645,6 +646,11 @@ public class listfolders extends ListActivity
 	          	      char[] numberChars = {'1','2','3','4','5','6','7','8','9','0'};
 	          	      return numberChars;
 	          	   }
+
+				@Override
+				public int getInputType() {					
+					return InputType.TYPE_CLASS_NUMBER;
+				}
 	          	});	
           	
  		    return new AlertDialog.Builder(listfolders.this)
